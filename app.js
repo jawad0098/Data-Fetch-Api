@@ -4,7 +4,7 @@
             const productContainer = document.getElementById('product-container');
             value2.products.forEach(product => {
                 const productDiv = document.createElement('div');
-                productDiv.classList.add('col-md-4', 'mb-4');
+                productDiv.classList.add('col-md-4', 'col-sm-6' ,'mb-4');
                 productDiv.innerHTML = `
                     <div class="card" style="width: 100%;">
                         <img src="${product.thumbnail}" class="card-img-top" alt="${product.title}">
